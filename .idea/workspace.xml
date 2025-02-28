@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69069281-d44c-485c-91a2-ad3cde6bbfb9" name="Changes" comment="Initial project setup">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="69069281-d44c-485c-91a2-ad3cde6bbfb9" name="Changes" comment="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/multithreading/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/multithreading/WebScraper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740764606715</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website">
+      <created>1740771101969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740771101969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +79,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project setup" />
+    <MESSAGE value="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website" />
   </component>
 </project>
