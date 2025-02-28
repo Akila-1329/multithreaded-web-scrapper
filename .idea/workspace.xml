@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69069281-d44c-485c-91a2-ad3cde6bbfb9" name="Changes" comment="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="69069281-d44c-485c-91a2-ad3cde6bbfb9" name="Changes" comment="Added concurrent web scraper with Jsoup improvements&#10;&#10;- Implemented multi-threaded web scraping using ExecutorService&#10;- Added User-Agent and Referrer headers to avoid 403 errors&#10;- Set a 5-second timeout for better request handling&#10;- Enabled ignoreHttpErrors and followRedirects for robustness&#10;- Improved exception handling and logging for failed requests&#10;- Config file for holding the thread count value">
+      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/multithreading/ConcurrentWebScraper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/multithreading/WebScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/multithreading/WebScraper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/multithreading/WebScraper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740771101969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Using basic web scraper functionality to get the title of a website(https://techcrunch.com/)">
+      <created>1740772092030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740772092030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,6 +88,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial project setup" />
     <MESSAGE value="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding dependencies jsoup for scraping data from websites and httpclient for making http requests or fetch HTMl content from the target website" />
+    <MESSAGE value="Using basic web scraper functionality to get the title of a website(https://techcrunch.com/)" />
+    <MESSAGE value="Added concurrent web scraper with Jsoup improvements&#10;&#10;- Implemented multi-threaded web scraping using ExecutorService&#10;- Added User-Agent and Referrer headers to avoid 403 errors&#10;- Set a 5-second timeout for better request handling&#10;- Enabled ignoreHttpErrors and followRedirects for robustness&#10;- Improved exception handling and logging for failed requests&#10;- Config file for holding the thread count value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added concurrent web scraper with Jsoup improvements&#10;&#10;- Implemented multi-threaded web scraping using ExecutorService&#10;- Added User-Agent and Referrer headers to avoid 403 errors&#10;- Set a 5-second timeout for better request handling&#10;- Enabled ignoreHttpErrors and followRedirects for robustness&#10;- Improved exception handling and logging for failed requests&#10;- Config file for holding the thread count value" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.jsoup.HttpStatusException" package="org.jsoup" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
