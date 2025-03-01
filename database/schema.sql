@@ -1,0 +1,9 @@
+CREATE DATABASE WebScraperDB;
+
+USE WebScraperDB;
+
+CREATE TABLE ScrapedData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    url VARCHAR(500),
+    title VARCHAR(500)
+);
